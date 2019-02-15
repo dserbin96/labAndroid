@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/example" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/var_one" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/var_two" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/var_three" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/var_four" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/var_five" />
+
+</LinearLayout>

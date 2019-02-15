@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">labAndroid</string>
+    <string name="fragments">Фрагменты</string>
+    <string name="sql">SQL</string>
+    <string name="network">Network</string>
+    <string name="green">Зеленый</string>
+    <string name="yellow">Желтый</string>
+    <string name="red">Красный</string>
+    <string name="blue">Синий</string>
+    <string name="example">Пример</string>
+    <string name="var_one">Вариант 1</string>
+    <string name="var_two">Вариант 2</string>
+    <string name="var_three">Вариант 3</string>
+    <string name="var_four">Вариант 4</string>
+    <string name="var_five">Вариант 5</string>
+
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="F">F</string>
+    <string name="G">G</string>
+    <string name="H">H</string>
+    <string name="I">I</string>
+    <string name="J">J</string>
+    <string name="K">K</string>
+    <string name="L">L</string>
+    <string name="M">M</string>
+    <string name="N">N</string>
+    <string name="O">O</string>
+    <string name="P">P</string>
+    <string name="Q">Q</string>
+    <string name="R">R</string>
+    <string name="S">S</string>
+    <string name="T">T</string>
+    <string name="U">U</string>
+    <string name="V">V</string>
+    <string name="W">W</string>
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+    <string name="Z">Z</string>
+
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+
+    <string-array name="country">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Нигерия</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>М</item>
+        <item>Ж</item>
+    </string-array>
+
+    <string-array name="type_of_study">
+        <item>очная</item>
+        <item>заочная</item>
+    </string-array>
+
+    <string-array name="form_of_study">
+        <item>бюджет</item>
+        <item>коммерция</item>
+    </string-array>
+
+    <string-array name="statys">
+        <item>Профессор</item>
+        <item>Доцент</item>
+        <item>Ст.преподаватель</item>
+        <item>Преподаватель</item>
+    </string-array>
+
+    <string-array name="blood">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="fio">ФИО</string>
+    <string name="number_hostel">№ комнаты</string>
+    <string name="age">Возраст</string>
+    <string name="numbe_group">№ группы</string>
+    <string name="open">Открыть</string>
+    <string name="create">Создать</string>
+    <string name="btnAdd">Добавит</string>
+    <string name="sity">Город</string>
+    <string name="year">Год</string>
+    <string name="rating">Балл</string>
+    <string name="positive">Положительная</string>
+    <string name="negative">Отрицательная</string>
+
+</resources>

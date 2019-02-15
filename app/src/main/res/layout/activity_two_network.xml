@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            tools:text="Кафедра информационных систем" />
+
+        <TextView
+            android:id="@+id/tvPlashed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Кафедра информационных систем организована в 1980 году, выделившись из состава кафедры экономической кибернетики. Со дня ее организации кафедрой руководил Семенов Михаил Игнатьевич д.э.н., профессор, заслуженный деятель наук Кубани.
+На сегодняшний день кафедрой руководит профессор д.э.н. Попова Елена Витальевна." />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivImage"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:src="@drawable/teacher" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Попок Л.Е" />
+
+        <TextView
+            android:id="@+id/tvHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text=" к.э.н., доцент Бардин А.К., к.э.н., профессор Великанова Л.О., к.э.н., доцент Гайдук Н.В., к.э.н. Замотайлова Д.А.,  к.э.н., доцент Кондратьев В.Ю.,  к.э.н., доцент Кумратова А.М., к.э.н., доцент  Попок Л.Е., к.э.н., доцент Тюнин Е.Б., к.э.н. Савинская Д.Н., аспиранты Курносова Н.С., Резников В.В., Сайкинов В.Е.
+training_direction: 09.03.03 Прикладная информатика (программы академического и прикладного бакалавриата);" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivFk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:src="@drawable/teacher" />
+
+    </LinearLayout>
+</ScrollView>

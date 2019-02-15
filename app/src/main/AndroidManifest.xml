@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dns.labandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".labFragmnet.example.LabFragmentActivity" />
+        <activity android:name=".labNetwork.LabNetworkJSONActivity" />
+        <activity android:name=".labSQL.LabSqlActivity" />
+        <activity android:name=".labFragmnet.example.ColorActivity" />
+        <activity android:name=".labFragmnet.five.VarOneFragmentActivity" />
+        <activity android:name=".labFragmnet.four.VarTwoFragmentActivity" />
+        <activity android:name=".labFragmnet.one.VarThreeFragmentActivity" />
+        <activity android:name=".labFragmnet.three.VarFourFragmentActivity" />
+        <activity android:name=".labFragmnet.two.VarFiveFragmentActivity" />
+        <activity android:name=".labFragmnet.five.DrawableActivity" />
+        <activity android:name=".labFragmnet.OneLabActivity" />
+        <activity
+            android:name=".labFragmnet.four.TextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".labFragmnet.one.TextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".labFragmnet.three.TextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".labFragmnet.two.TextActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".labSQL.example.ExCreateActivity" />
+        <activity android:name=".labSQL.example.ExStudentsActivity" />
+        <activity android:name=".labSQL.five.FiveCreateActivity" />
+        <activity android:name=".labSQL.five.FiveStudentsActivity" />
+        <activity android:name=".labSQL.four.FourCreateActivity" />
+        <activity android:name=".labSQL.four.FourDrafteeActivity" />
+        <activity android:name=".labSQL.one.OneCreateActivity" />
+        <activity android:name=".labSQL.one.OneEnrolleeActivity" />
+        <activity android:name=".labSQL.two.TwoCreateActivity" />
+        <activity android:name=".labSQL.two.TwoTeacherActivity" />
+        <activity android:name=".labSQL.three.ThreeCreateActivity" />
+        <activity android:name=".labSQL.three.ThreePatientActivity" />
+        <activity android:name=".labNetwork.example.ExNetworkActivity" />
+        <activity android:name=".labNetwork.five.FiveNetworkActivity" />
+        <activity android:name=".labNetwork.four.FourNetworkActivity" />
+        <activity android:name=".labNetwork.one.OneNetworkActivity" />
+        <activity android:name=".labNetwork.three.ThreeNetworkActivity" />
+        <activity android:name=".labNetwork.two.TwoNetworkActivity" />
+    </application>
+
+</manifest>
