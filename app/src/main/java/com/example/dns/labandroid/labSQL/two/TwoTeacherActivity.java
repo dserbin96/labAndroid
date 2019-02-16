@@ -54,10 +54,10 @@ public class TwoTeacherActivity extends AppCompatActivity {
             int id = cursor.getInt(indexId);
             String fio = cursor.getString(indexFio);
             String sex = getResources()
-                    .getStringArray(R.array.form_of_study)[cursor.getInt(indexSex)];
+                    .getStringArray(R.array.sex)[cursor.getInt(indexSex)];
             String age = cursor.getString(indexAge);
             String statys = getResources()
-                    .getStringArray(R.array.type_of_study)[cursor.getInt(indexStatys)];
+                    .getStringArray(R.array.statys)[cursor.getInt(indexStatys)];
 
             String row = String.valueOf(id) + " " +
                     fio + " " +

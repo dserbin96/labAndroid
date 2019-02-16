@@ -51,7 +51,6 @@ public class LabSqlActivity extends AppCompatActivity implements View.OnClickLis
                 break;
             case R.id.btnThree:
                 startActivity(new Intent(this, ThreeCreateActivity.class));
-                finish();
                 break;
             case R.id.btnFour:
                 startActivity(new Intent(this, FourCreateActivity.class));

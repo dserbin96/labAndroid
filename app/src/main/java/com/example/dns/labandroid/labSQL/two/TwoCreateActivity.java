@@ -26,8 +26,8 @@ public class TwoCreateActivity extends AppCompatActivity {
     private Button btnAdd;
     private Button btnOpen;
 
-    private int sex;
-    private int statys;
+    private int sex = 0;
+    private int statys = 0;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

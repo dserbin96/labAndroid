@@ -4,7 +4,7 @@ import android.provider.BaseColumns;
 
 public class PatientContract {
     static class GuestEntry implements BaseColumns {
-        public static final String TABLE_NAME = "enrollee";
+        public static final String TABLE_NAME = "patient";
         public static final String COLUME_ID = BaseColumns._ID;
         public static final String COLUME_FIO = "Name";
         public static final String COLUME_AGE = "Age";
